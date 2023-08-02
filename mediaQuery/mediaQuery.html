@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(41, 86, 71);
+        }
+        .p1{
+            background-color: yellowgreen;
+            color: brown;
+        }
+        .p2{
+            background-color: rgb(39, 57, 4);
+            color: rgb(195, 152, 152);
+        }
+
+        @media screen and (min-width:500px){
+            .p1{
+                color: blue;
+                background-color: purple;
+            }
+            .p2{
+                color: blue;
+                background-color: purple;
+            }
+        }
+
+
+        @media printer and (min-width:500px){
+            .p1{
+                color: rgba(164, 164, 178, 0.241);
+                background-color: rgb(227, 221, 227);
+            }
+            .p2{
+                color: rgb(30, 224, 59);
+                background-color: rgb(190, 171, 190);
+            }
+        }
+
+        
+        @media screen and (min-width:800px){
+          
+            .p2{
+                color: rgb(44, 133, 49);
+                background-color: rgb(160, 140, 160);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cupiditate aliquam totam! Quod tempora libero repudiandae quia voluptates, itaque nemo voluptatem veniam maxime mollitia atque voluptatibus adipisci rerum quasi distinctio ex assumenda possimus. Reprehenderit a ipsam, dicta incidunt impedit atque earum ad facilis aliquam distinctio. Quisquam doloribus incidunt pariatur corporis, expedita iusto rem, inventore voluptatibus in asperiores, voluptates obcaecati soluta voluptate mollitia corrupti nesciunt tempore fuga laudantium. Ab animi quis accusantium? Suscipit, excepturi adipisci dolores reprehenderit sed consectetur laboriosam distinctio tenetur quod ad perspiciatis odio numquam alias magni ea impedit? Delectus, ducimus aut! Ipsam ex animi dolorum natus quia ut.</p>
+       <br>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cupiditate aliquam totam! Quod tempora libero repudiandae quia voluptates, itaque nemo voluptatem veniam maxime mollitia atque voluptatibus adipisci rerum quasi distinctio ex assumenda possimus. Reprehenderit a ipsam, dicta incidunt impedit atque earum ad facilis aliquam distinctio. Quisquam doloribus incidunt pariatur corporis, expedita iusto rem, inventore voluptatibus in asperiores, voluptates obcaecati soluta voluptate mollitia corrupti nesciunt tempore fuga laudantium. Ab animi quis accusantium? Suscipit, excepturi adipisci dolores reprehenderit sed consectetur laboriosam distinctio tenetur quod ad perspiciatis odio numquam alias magni ea impedit? Delectus, ducimus aut! Ipsam ex animi dolorum natus quia ut.</p>
+    
+    </div>
+    
+</body>
+</html>
